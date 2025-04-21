@@ -1,1 +1,12 @@
+This script cleans the raw Netflix dataset for analysis.
 
+Load data from Netflix_data.xlsx.
+Clean column names (lowercase, underscores, no special characters).
+Fill missing values in country and rating.
+Drop rows missing title or type.
+Remove duplicate records.
+Standardize text fields.
+Parse and extract year/month from date_added.
+Clean and split duration into numeric and type.
+Remove outliers from duration_num.
+Save cleaned data to cleaned_netflix_data.xlsx.
